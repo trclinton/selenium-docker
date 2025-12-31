@@ -1,0 +1,706 @@
+2025-12-26 22:47:14,788 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml"
+2025-12-26 22:47:15,070 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml
+
+2025-12-26 22:47:15,087 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 22:47:15,087 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 22:47:15,088 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 22:47:15,088 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 22:47:15,088 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 22:47:15,088 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 22:47:15,088 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 22:47:15,088 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 22:47:59,813 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-4.json
+2025-12-26 22:47:59,813 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-1.json
+2025-12-26 22:47:59,813 INFO  [TestNG-tests-4] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-4.json
+2025-12-26 22:47:59,813 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-3.json
+2025-12-26 22:47:59,813 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-1.json
+2025-12-26 22:47:59,813 INFO  [TestNG-tests-3] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-3.json
+2025-12-26 22:49:13,711 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-2.json
+2025-12-26 22:49:13,712 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-2.json
+2025-12-26 22:49:13,713 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Error reading JSON file: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-1.json
+2025-12-26 22:49:13,713 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Error reading JSON file: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-3.json
+2025-12-26 22:49:13,713 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Error reading JSON file: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-4.json
+2025-12-26 22:49:13,714 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 22:49:13,714 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 22:49:13,714 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 22:49:13,714 INFO  [TestNG-tests-4] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 22:49:13,715 INFO  [TestNG-tests-3] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 22:49:13,715 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 22:49:13,723 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Error reading JSON file: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-2.json
+2025-12-26 22:49:13,723 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 22:49:13,723 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 22:50:38,960 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml"
+2025-12-26 22:50:39,229 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml
+
+2025-12-26 22:50:39,242 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 22:50:39,244 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 22:50:39,244 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 22:50:39,244 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 22:50:39,244 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 22:50:39,244 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 22:50:39,244 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 22:50:39,244 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 22:50:48,332 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-3.json
+2025-12-26 22:51:07,707 INFO  [TestNG-tests-3] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-3.json
+2025-12-26 22:52:56,470 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-4.json
+2025-12-26 22:52:56,471 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Error reading JSON file: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-3.json
+2025-12-26 22:52:56,471 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-1.json
+2025-12-26 22:52:56,471 INFO  [TestNG-tests-4] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-4.json
+2025-12-26 22:52:56,472 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-1.json
+2025-12-26 22:52:56,470 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-2.json
+2025-12-26 22:52:56,472 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-2.json
+2025-12-26 22:52:56,472 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 22:52:56,472 INFO  [TestNG-tests-3] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 22:52:56,473 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Error reading JSON file: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-4.json
+2025-12-26 22:52:56,473 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Error reading JSON file: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-1.json
+2025-12-26 22:52:56,473 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 22:52:56,473 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 22:52:56,473 INFO  [TestNG-tests-4] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 22:52:56,473 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 22:52:56,481 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Error reading JSON file: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\passenger-2.json
+2025-12-26 22:52:56,481 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 22:52:56,481 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:02:40,750 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml"
+2025-12-26 23:02:41,040 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml
+
+2025-12-26 23:02:41,057 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:02:41,058 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:02:41,058 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:02:41,058 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:02:41,058 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:02:41,058 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:02:41,058 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:02:41,058 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:03:29,674 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:03:29,674 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:03:29,674 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:03:29,674 INFO  [TestNG-tests-4] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:03:29,675 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:03:29,675 INFO  [TestNG-tests-3] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:03:32,703 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:03:32,703 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:03:32,750 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Error reading JSON file: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #239] (through reference chain: org.learn.utilities.DashboardRecord["count"])
+2025-12-26 23:03:32,750 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Error reading JSON file: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #238] (through reference chain: org.learn.utilities.DashboardRecord["count"])
+2025-12-26 23:03:32,750 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Error reading JSON file: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #241] (through reference chain: org.learn.utilities.DashboardRecord["count"])
+2025-12-26 23:03:32,750 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Error reading JSON file: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #232] (through reference chain: org.learn.utilities.DashboardRecord["count"])
+2025-12-26 23:03:32,751 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:03:32,751 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:03:32,751 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:03:32,751 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:03:32,751 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:03:32,751 INFO  [TestNG-tests-3] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:03:32,751 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:03:32,751 INFO  [TestNG-tests-4] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:03:42,816 INFO  [TestNG-tests-2] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766770422281
+2025-12-26 23:03:42,824 INFO  [TestNG-tests-2] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:03:42,824 INFO  [TestNG-tests-1] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766770421041
+2025-12-26 23:03:42,831 INFO  [TestNG-tests-1] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:03:42,837 INFO  [TestNG-tests-2] o.l.f.FinalConfirmationActions - Total Price: $1169 USD
+2025-12-26 23:03:42,845 INFO  [TestNG-tests-1] o.l.f.FinalConfirmationActions - Total Price: $584 USD
+2025-12-26 23:03:42,884 INFO  [TestNG-tests-4] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766770422328
+2025-12-26 23:03:42,884 INFO  [TestNG-tests-3] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766770422065
+2025-12-26 23:03:42,891 INFO  [TestNG-tests-3] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:03:42,891 INFO  [TestNG-tests-4] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:03:42,901 INFO  [TestNG-tests-3] o.l.f.FinalConfirmationActions - Total Price: $1753 USD
+2025-12-26 23:03:42,901 INFO  [TestNG-tests-4] o.l.f.FinalConfirmationActions - Total Price: $2338 USD
+2025-12-26 23:08:45,713 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml"
+2025-12-26 23:08:45,754 INFO  [main] org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-12-26 23:08:45,974 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml
+
+2025-12-26 23:08:45,984 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:08:45,985 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:08:45,985 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:08:45,985 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:08:45,985 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:08:45,985 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:08:45,985 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:08:45,985 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:08:48,378 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\sam.json
+2025-12-26 23:08:48,379 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\sam.json
+2025-12-26 23:08:48,468 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\sam.json
+2025-12-26 23:08:48,468 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\sam.json
+2025-12-26 23:08:51,138 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: $40,000
+2025-12-26 23:08:51,138 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: $215,000
+2025-12-26 23:08:51,138 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: 50%
+2025-12-26 23:08:51,138 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: 18
+2025-12-26 23:08:53,207 INFO  [main] v.VendorPortalTestCases - Number of results: 10
+2025-12-26 23:09:00,630 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\john.json
+2025-12-26 23:09:00,631 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\john.json
+2025-12-26 23:09:00,633 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\john.json
+2025-12-26 23:09:00,633 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\john.json
+2025-12-26 23:09:03,200 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: $3,453
+2025-12-26 23:09:03,200 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: $34,485
+2025-12-26 23:09:03,200 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: -16%
+2025-12-26 23:09:03,202 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: 67
+2025-12-26 23:09:05,260 INFO  [main] v.VendorPortalTestCases - Number of results: 10
+2025-12-26 23:09:27,599 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml"
+2025-12-26 23:09:27,639 INFO  [main] org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-12-26 23:09:27,856 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml
+
+2025-12-26 23:09:27,870 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:09:27,870 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:09:27,870 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:09:27,870 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:09:27,870 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:09:27,870 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:09:27,870 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:09:27,870 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:09:30,267 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:09:30,267 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:09:30,350 INFO  [main] org.learn.utilities.jsonReader - Error reading JSON file: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #232] (through reference chain: org.learn.utilities.DashboardRecord["count"])
+2025-12-26 23:09:30,351 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:09:30,351 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:09:39,624 INFO  [main] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766770778932
+2025-12-26 23:09:39,632 INFO  [main] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:09:39,648 INFO  [main] o.l.f.FinalConfirmationActions - Total Price: $584 USD
+2025-12-26 23:09:44,260 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:09:44,260 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:09:44,263 INFO  [main] org.learn.utilities.jsonReader - Error reading JSON file: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #241] (through reference chain: org.learn.utilities.DashboardRecord["count"])
+2025-12-26 23:09:44,263 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:09:44,263 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:09:53,486 INFO  [main] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766770791748
+2025-12-26 23:09:53,493 INFO  [main] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:09:53,506 INFO  [main] o.l.f.FinalConfirmationActions - Total Price: $1169 USD
+2025-12-26 23:09:58,029 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:09:58,029 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:09:58,031 INFO  [main] org.learn.utilities.jsonReader - Error reading JSON file: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #239] (through reference chain: org.learn.utilities.DashboardRecord["count"])
+2025-12-26 23:09:58,031 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:09:58,031 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:10:07,311 INFO  [main] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766770806122
+2025-12-26 23:10:07,317 INFO  [main] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:10:07,328 INFO  [main] o.l.f.FinalConfirmationActions - Total Price: $1753 USD
+2025-12-26 23:10:11,841 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:10:11,841 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:10:11,843 INFO  [main] org.learn.utilities.jsonReader - Error reading JSON file: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #238] (through reference chain: org.learn.utilities.DashboardRecord["count"])
+2025-12-26 23:10:11,843 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:10:11,843 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:10:21,048 INFO  [main] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766770819425
+2025-12-26 23:10:21,052 INFO  [main] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:10:21,060 INFO  [main] o.l.f.FinalConfirmationActions - Total Price: $2338 USD
+2025-12-26 23:13:32,838 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml"
+2025-12-26 23:13:32,881 INFO  [main] org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-12-26 23:13:33,104 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml
+
+2025-12-26 23:13:33,115 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:13:33,115 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:13:33,117 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:13:33,117 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:13:33,117 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:13:33,117 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:13:33,117 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:13:33,117 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:13:35,465 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:13:43,895 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:16:52,502 INFO  [main] org.learn.utilities.jsonReader - Error reading JSON file: Cannot map `null` into type `int` (set DeserializationConfig.DeserializationFeature.FAIL_ON_NULL_FOR_PRIMITIVES to 'false' to allow)
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #232] (through reference chain: org.learn.utilities.DashboardRecord["count"])
+2025-12-26 23:16:52,505 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:16:52,505 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:17:01,203 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml"
+2025-12-26 23:17:01,244 INFO  [main] org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-12-26 23:17:01,481 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml
+
+2025-12-26 23:17:01,495 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:17:01,495 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:17:01,496 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:17:01,496 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:17:01,496 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:17:01,496 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:17:01,496 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:17:01,496 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:18:55,903 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml"
+2025-12-26 23:18:55,957 INFO  [main] org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-12-26 23:18:56,192 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml
+
+2025-12-26 23:18:56,204 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:18:56,204 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:18:56,205 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:18:56,205 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:18:56,205 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:18:56,205 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:18:56,205 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:18:56,205 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:19:06,470 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:19:13,006 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:19:22,451 INFO  [main] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766771361453
+2025-12-26 23:19:22,457 INFO  [main] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:19:22,472 INFO  [main] o.l.f.FinalConfirmationActions - Total Price: $584 USD
+2025-12-26 23:19:34,506 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:19:34,506 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:19:43,904 INFO  [main] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766771382158
+2025-12-26 23:19:43,909 INFO  [main] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:19:43,922 INFO  [main] o.l.f.FinalConfirmationActions - Total Price: $1169 USD
+2025-12-26 23:19:48,437 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:19:48,437 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:19:57,710 INFO  [main] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766771396462
+2025-12-26 23:19:57,721 INFO  [main] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:19:57,742 INFO  [main] o.l.f.FinalConfirmationActions - Total Price: $1753 USD
+2025-12-26 23:20:02,192 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:20:02,192 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:20:11,472 INFO  [main] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766771409753
+2025-12-26 23:20:11,479 INFO  [main] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:20:11,494 INFO  [main] o.l.f.FinalConfirmationActions - Total Price: $2338 USD
+2025-12-26 23:21:00,204 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml"
+2025-12-26 23:21:00,471 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml
+
+2025-12-26 23:21:00,485 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:21:00,486 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:21:00,486 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:21:00,486 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:21:00,486 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:21:00,486 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:21:00,486 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:21:00,486 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:21:03,543 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:21:03,543 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:21:03,544 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-26 23:21:03,544 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-26 23:21:03,633 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:21:03,633 INFO  [TestNG-tests-3] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-26 23:21:03,687 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:21:03,688 INFO  [TestNG-tests-4] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-26 23:21:13,410 INFO  [TestNG-tests-2] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766771473173
+2025-12-26 23:21:13,410 INFO  [TestNG-tests-1] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766771472210
+2025-12-26 23:21:13,418 INFO  [TestNG-tests-2] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:21:13,419 INFO  [TestNG-tests-1] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:21:13,437 INFO  [TestNG-tests-2] o.l.f.FinalConfirmationActions - Total Price: $1169 USD
+2025-12-26 23:21:13,437 INFO  [TestNG-tests-1] o.l.f.FinalConfirmationActions - Total Price: $584 USD
+2025-12-26 23:21:13,500 INFO  [TestNG-tests-4] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766771472534
+2025-12-26 23:21:13,507 INFO  [TestNG-tests-3] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766771472565
+2025-12-26 23:21:13,507 INFO  [TestNG-tests-4] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:21:13,512 INFO  [TestNG-tests-3] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-26 23:21:13,519 INFO  [TestNG-tests-4] o.l.f.FinalConfirmationActions - Total Price: $2338 USD
+2025-12-26 23:21:13,529 INFO  [TestNG-tests-3] o.l.f.FinalConfirmationActions - Total Price: $1753 USD
+2025-12-26 23:24:49,595 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml"
+2025-12-26 23:24:49,851 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml
+
+2025-12-26 23:24:49,861 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:24:49,862 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:24:49,862 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:24:49,862 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:24:49,862 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:24:49,862 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:24:49,862 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:24:49,862 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:24:52,472 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\sam.json
+2025-12-26 23:24:52,472 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\john.json
+2025-12-26 23:24:52,472 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\sam.json
+2025-12-26 23:24:52,472 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\john.json
+2025-12-26 23:24:55,228 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Dashboard Parameters: $40,000
+2025-12-26 23:24:55,228 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Dashboard Parameters: $215,000
+2025-12-26 23:24:55,228 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Dashboard Parameters: 50%
+2025-12-26 23:24:55,228 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Dashboard Parameters: 18
+2025-12-26 23:24:55,232 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Dashboard Parameters: $3,453
+2025-12-26 23:24:55,232 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Dashboard Parameters: $34,485
+2025-12-26 23:24:55,233 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Dashboard Parameters: -16%
+2025-12-26 23:24:55,233 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Dashboard Parameters: 67
+2025-12-26 23:24:57,309 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Number of results: 10
+2025-12-26 23:24:57,335 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Number of results: 10
+2025-12-26 23:46:49,339 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml"
+2025-12-26 23:46:49,624 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml
+
+2025-12-26 23:46:49,635 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:46:49,638 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:46:49,638 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:46:49,638 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:46:49,638 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:46:49,638 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:46:49,638 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:46:49,638 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:47:15,454 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml"
+2025-12-26 23:47:15,747 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml
+
+2025-12-26 23:47:15,761 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:47:15,761 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:47:15,762 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:47:15,762 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:47:15,762 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:47:15,762 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:47:15,762 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:47:15,762 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:47:46,517 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: {
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}
+2025-12-26 23:47:46,517 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:47:46,517 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: {
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}
+2025-12-26 23:47:46,517 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:47:46,518 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Error reading JSON file: Illegal char <> at index 1: {
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}
+2025-12-26 23:47:46,518 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Error reading JSON file: Illegal char <> at index 1: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:48:08,560 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml"
+2025-12-26 23:48:08,818 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml
+
+2025-12-26 23:48:08,828 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:48:08,829 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:48:08,829 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:48:08,829 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:48:08,829 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:48:08,829 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:48:08,829 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:48:08,829 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:48:11,508 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: {
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}
+2025-12-26 23:48:11,508 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:48:11,508 INFO  [TestNG-tests-2] org.learn.utilities.ResourceLoader - Loading resource from path: {
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}
+2025-12-26 23:48:11,508 INFO  [TestNG-tests-1] org.learn.utilities.ResourceLoader - Loading resource from path: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:48:11,509 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Error reading JSON file: Illegal char <> at index 1: {
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}
+2025-12-26 23:48:11,509 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Error reading JSON file: Illegal char <> at index 1: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:51:22,493 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml"
+2025-12-26 23:51:22,536 INFO  [main] org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-12-26 23:51:22,758 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml
+
+2025-12-26 23:51:22,769 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:51:22,769 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:51:22,769 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:51:22,769 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:51:22,769 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:51:22,769 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:51:22,769 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:51:22,769 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:51:25,317 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:51:25,317 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:51:25,318 INFO  [main] org.learn.utilities.jsonReader - Error reading JSON file: Illegal char <> at index 1: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:51:30,379 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: {
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}
+2025-12-26 23:51:30,379 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: {
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}
+2025-12-26 23:51:30,380 INFO  [main] org.learn.utilities.jsonReader - Error reading JSON file: Illegal char <> at index 1: {
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}
+2025-12-26 23:52:00,130 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml"
+2025-12-26 23:52:00,172 INFO  [main] org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-12-26 23:52:00,390 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml
+
+2025-12-26 23:52:00,400 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-26 23:52:00,400 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-26 23:52:00,401 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-26 23:52:00,401 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-26 23:52:00,401 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-26 23:52:00,401 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-26 23:52:00,401 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-26 23:52:00,401 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-26 23:53:01,489 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:53:01,490 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-26 23:53:01,491 INFO  [main] org.learn.utilities.jsonReader - Error reading JSON file: Illegal char <> at index 1: {
+  "username": "sam",
+  "password": "sam",
+  "dashParm" : [
+    "$40,000",
+    "$215,000",
+    "50%",
+    18
+  ],
+  "searchText" : "New York",
+  "count": 10
+}
+2025-12-27 00:03:12,145 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml"
+2025-12-27 00:03:12,189 INFO  [main] org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'false' is no longer valid, defaulting to 'none'.
+2025-12-27 00:03:12,418 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml
+
+2025-12-27 00:03:12,429 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-27 00:03:12,429 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-27 00:03:12,429 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-27 00:03:12,429 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-27 00:03:12,430 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-27 00:03:12,430 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-27 00:03:12,430 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-27 00:03:12,430 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-27 00:03:30,416 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\sam.json
+2025-12-27 00:03:43,793 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: $40,000
+2025-12-27 00:03:43,793 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: $215,000
+2025-12-27 00:03:43,793 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: 50%
+2025-12-27 00:03:43,793 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: 18
+2025-12-27 00:03:45,867 INFO  [main] v.VendorPortalTestCases - Number of results: 10
+2025-12-27 00:03:59,347 INFO  [main] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\john.json
+2025-12-27 00:04:02,022 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: $3,453
+2025-12-27 00:04:02,022 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: $34,485
+2025-12-27 00:04:02,022 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: -16%
+2025-12-27 00:04:02,022 INFO  [main] v.VendorPortalTestCases - Dashboard Parameters: 67
+2025-12-27 00:04:04,106 INFO  [main] v.VendorPortalTestCases - Number of results: 10
+2025-12-27 00:04:41,307 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml"
+2025-12-27 00:04:41,578 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\Reservation.xml
+
+2025-12-27 00:04:41,595 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-27 00:04:41,595 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-27 00:04:41,595 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-27 00:04:41,595 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-27 00:04:41,595 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-27 00:04:41,595 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-27 00:04:41,595 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-27 00:04:41,595 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-27 00:04:44,822 INFO  [TestNG-tests-3] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-3.json
+2025-12-27 00:04:44,822 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-1.json
+2025-12-27 00:04:44,822 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-2.json
+2025-12-27 00:04:44,823 INFO  [TestNG-tests-4] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\ReservationData\passenger-4.json
+2025-12-27 00:04:54,423 INFO  [TestNG-tests-2] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766774093703
+2025-12-27 00:04:54,432 INFO  [TestNG-tests-2] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-27 00:04:54,440 INFO  [TestNG-tests-3] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766774094171
+2025-12-27 00:04:54,448 INFO  [TestNG-tests-3] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-27 00:04:54,451 INFO  [TestNG-tests-2] o.l.f.FinalConfirmationActions - Total Price: $1169 USD
+2025-12-27 00:04:54,484 INFO  [TestNG-tests-3] o.l.f.FinalConfirmationActions - Total Price: $1753 USD
+2025-12-27 00:04:54,749 INFO  [TestNG-tests-1] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766774093192
+2025-12-27 00:04:54,757 INFO  [TestNG-tests-1] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-27 00:04:54,776 INFO  [TestNG-tests-1] o.l.f.FinalConfirmationActions - Total Price: $584 USD
+2025-12-27 00:04:55,125 INFO  [TestNG-tests-4] o.l.f.FinalConfirmationActions - Flight Confirmation # 2025-12-1766774094593
+2025-12-27 00:04:55,131 INFO  [TestNG-tests-4] o.l.f.FinalConfirmationActions - Tax: $89 USD
+2025-12-27 00:04:55,144 INFO  [TestNG-tests-4] o.l.f.FinalConfirmationActions - Total Price: $2338 USD
+2025-12-29 12:55:50,705 DEBUG [main] org.testng.TestNG - suiteXmlPath: "C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml"
+2025-12-29 12:55:50,983 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\testNGXML\VendorPortal.xml
+
+2025-12-29 12:55:50,994 INFO  [main] org.learn.utilities.ResourceLoader - Loading resource from path: config/default.properties
+2025-12-29 12:55:50,997 INFO  [main] org.learn.utilities.ResourceLoader - Resource loaded successfully.
+2025-12-29 12:55:50,997 INFO  [main] org.learn.utilities.Config - Test Properties
+2025-12-29 12:55:50,997 INFO  [main] org.learn.utilities.Config - reservation.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/reservation-app/index.html
+2025-12-29 12:55:50,997 INFO  [main] org.learn.utilities.Config - executionType=local
+2025-12-29 12:55:50,997 INFO  [main] org.learn.utilities.Config - browser=firefox
+2025-12-29 12:55:50,997 INFO  [main] org.learn.utilities.Config - vendorPortal.url=https://d1uh9e7cu07ukd.cloudfront.net/selenium-docker/vendor-app/index.html
+2025-12-29 12:55:50,997 INFO  [main] org.learn.utilities.Config - hubURL=http://localhost:4444/
+2025-12-29 12:55:53,821 INFO  [TestNG-tests-2] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\john.json
+2025-12-29 12:55:53,821 INFO  [TestNG-tests-1] org.learn.utilities.jsonReader - Reading JSON file from path: C:\Users\Clinton\IdeaProjects\selenium-docker\src\test\resources\testData\VendorPortalData\sam.json
+2025-12-29 12:55:56,659 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Dashboard Parameters: $40,000
+2025-12-29 12:55:56,659 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Dashboard Parameters: $215,000
+2025-12-29 12:55:56,660 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Dashboard Parameters: 50%
+2025-12-29 12:55:56,660 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Dashboard Parameters: 18
+2025-12-29 12:55:56,675 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Dashboard Parameters: $3,453
+2025-12-29 12:55:56,675 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Dashboard Parameters: $34,485
+2025-12-29 12:55:56,675 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Dashboard Parameters: -16%
+2025-12-29 12:55:56,675 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Dashboard Parameters: 67
+2025-12-29 12:55:58,730 INFO  [TestNG-tests-1] v.VendorPortalTestCases - Number of results: 10
+2025-12-29 12:55:58,767 INFO  [TestNG-tests-2] v.VendorPortalTestCases - Number of results: 10

@@ -1,0 +1,11 @@
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "tori@gmail.com",
+  "street": "123 Main St",
+  "city": "Anytown",
+  "state": "Arizona",
+  "zipCode": "12345",
+  "passengerCount": "1",
+  "expectedPrice": "$584 USD"
+}

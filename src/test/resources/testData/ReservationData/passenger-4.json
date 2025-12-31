@@ -1,0 +1,11 @@
+{
+  "firstName": "Elizabeth",
+  "lastName": "Doe",
+  "email": "eliza@gmail.com",
+  "street": "321 Maple St",
+  "city": "Newcity",
+  "state": "Texas",
+  "zipCode": "54321",
+  "passengerCount": "4",
+  "expectedPrice": "$2338 USD"
+}

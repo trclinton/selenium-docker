@@ -1,0 +1,79 @@
+plugins {
+    id 'java'
+    id 'distribution'
+}
+
+group = 'org.learn'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.seleniumhq.selenium:selenium-java:4.36.0")
+    implementation("org.seleniumhq.selenium:selenium-grid:4.36.0")
+    implementation ("org.testng:testng:7.11.0")
+    implementation("tools.jackson.core:jackson-core:3.0.0")
+    implementation("tools.jackson.core:jackson-databind:3.0.0")
+    implementation("ch.qos.logback:logback-classic:1.5.19")
+    implementation 'com.aventstack:extentreports:5.1.0'
+}
+
+test {
+    useTestNG() {
+        suites(
+                "src/test/resources/testData/testNGXML/Reservation.xml",
+                "src/test/resources/testData/testNGXML/VendorPortal.xml"
+        )
+
+        systemProperty "executionType", System.getProperty("executionType", "local")
+        systemProperty "browser", System.getProperty("browser", "chrome")
+        systemProperty "hubUrl", System.getProperty("hubUrl", "http://localhost:4444/")
+    }
+    maxParallelForks = 2
+}
+
+jar {
+    archiveBaseName.set("selenium-docker")
+}
+
+tasks.register('testJar', Jar) {
+    archiveBaseName.set("selenium-docker-tests")
+    from sourceSets.test.output
+}
+
+
+tasks.register('dockerResources', Sync) {
+    dependsOn jar, testJar
+
+    into("$buildDir/docker-resources")
+
+    // config
+    from("src/main/resources") {
+        include "logback.xml"
+        into "config"
+    }
+    from("src/main/resources/config") {
+        include "default.properties"
+        into "config"
+    }
+
+    // test data (JSON)
+    from("src/test/resources/testData") {
+        exclude "testNGXML/**"
+        into "testData"
+    }
+
+    // test suites
+    from("src/test/resources/testData/testNGXML") {
+        into "test-suites"
+    }
+
+    // libraries
+    from(configurations.runtimeClasspath) {
+        into "libs"
+    }
+    from("$buildDir/libs") {
+        into "libs"
+    }
+}

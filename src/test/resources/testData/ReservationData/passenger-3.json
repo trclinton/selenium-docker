@@ -1,0 +1,11 @@
+{
+  "firstName": "Jennie",
+  "lastName": "Lee",
+  "email": "jennie@gmail.com",
+  "street": "789 Pine St",
+  "city": "Sometown",
+  "state": "New York",
+  "zipCode": "11223",
+  "passengerCount": "3",
+  "expectedPrice": "$1753 USD"
+}

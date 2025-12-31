@@ -1,0 +1,12 @@
+{
+  "username": "john",
+  "password": "john",
+  "dashParm" : [
+    "$3,453",
+    "$34,485",
+    "-16%",
+    67
+  ],
+  "searchText" : "San Diego",
+  "count": 10
+}

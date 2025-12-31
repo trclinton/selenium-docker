@@ -1,0 +1,11 @@
+{
+  "firstName": "Sophie",
+  "lastName": "Doe",
+  "email": "sophie@gmail.com",
+  "street": "456 Oak St",
+  "city": "Othertown",
+  "state": "California",
+  "zipCode": "67890",
+  "passengerCount": "2",
+  "expectedPrice": "$1169 USD"
+}
